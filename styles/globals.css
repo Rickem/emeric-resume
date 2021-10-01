@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-text-blanc: 255,255,255;
+    --color-text-gris: 112,112,112 ; /* #707070 */
+    --color-text-primary: 0,103,222; /* #0067de */
+    --color-text-muted: 229,241,255; /* #e5f1ff */
+    --color-text-inverted: 59,142,238; /* #3b8eee */
+    --color-primary: 0,103,222; /* #0067de */
+    --color-btn-accent: 255,255,255;
+    --color-btn-accent-hover: 238,242,255;
+    --color-btn-muted: 99,102,241;
+    --color-btn-inverted: 59,142,238;
+  }
+  /* Change colors here */
+  .theme-dark {
+    --color-text-blanc: 255,255,255;
+    --color-text-gris: 112,112,112 ; /* #707070 */
+    --color-text-primary: 0,103,222; /* #0067de */
+    --color-text-muted: 229,241,255; /* #e5f1ff */
+    --color-text-inverted: 59,142,238; /* #3b8eee */
+    --color-primary: 0,103,222; /* #0067de */
+    --color-btn-accent: 255,255,255;
+    --color-btn-accent-hover: 238,242,255;
+    --color-btn-muted: 99,102,241;
+  }
+
+  
+}
+
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: #707070; 
+  /* change color later */
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #0067de; 
+  /* change color later */
+}
+
+.link-text {
+  display: none;
+}
+
+/* .my-nav:hover .link-text {
+  display: block;
+}
+
+.logo {
+  transform: rotate(0deg);
+  transition: transform ease-in 200;
+}
+
+.my-nav:hover .logo {
+  transform: rotate(-180deg);
+  transition: transform ease-in 200;
+} */
